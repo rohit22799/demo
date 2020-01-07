@@ -1,5 +1,10 @@
 inp = input().split(' ')
 inp = [int(i) for i in inp]
+print("numbers Before sorting")
 print(inp)
 inp.sort()
+print("sorting in Ascending Order")
+print(inp)
+inp.sort(reverse=True)
+print("sorting in Desending Order")
 print(inp)
